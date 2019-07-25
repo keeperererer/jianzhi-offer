@@ -14,9 +14,10 @@ function KthNode(root, k)
     var arr = [];
      
     inorder(root,arr)
-     
+    //第k个元素就是arr[k-1]存储的节点指针
     return arr[k-1];
 }
+//中序遍历后就是有序序列
 function inorder(root,arr) {
     if(!root) return;
      
