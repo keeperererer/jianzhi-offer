@@ -10,7 +10,7 @@
 
 ### 代码
 第一种
-```
+```javascript
 /* function ListNode(x){
  this.val = x;
  this.next = null;

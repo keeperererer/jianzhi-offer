@@ -7,7 +7,7 @@
 双指针  相距最远，乘积最小
 
 ### 代码
-```
+```javascript
 function FindNumbersWithSum(array, sum) {
   if (array.length < 2) return [];
   let left = 0,

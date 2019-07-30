@@ -8,7 +8,7 @@
       则min依次入栈：  5，4，3，3，3，3，3，1
 
 ### 代码
-```
+```javascript
 const stack = [],
       minStack = [];
 let tmp = null;
